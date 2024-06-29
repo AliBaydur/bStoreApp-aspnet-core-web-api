@@ -58,3 +58,31 @@
 2024-06-28 21:23:36.9777 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
 2024-06-28 21:23:37.0276 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ali\Desktop\Eğitimlerim\bsStoreApp\WebApi\nlog.config
 2024-06-28 21:23:37.0694 Info Configuration initialized.
+2024-06-28 21:59:22.5372 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-06-28 21:59:22.5914 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-28 21:59:22.6337 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ali\Desktop\Eğitimlerim\bsStoreApp\WebApi\nlog.config
+2024-06-28 21:59:22.6567 Info Configuration initialized.
+2024-06-28 22:02:01.9685 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-06-28 22:02:01.9860 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-28 22:02:01.9985 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ali\Desktop\Eğitimlerim\bsStoreApp\WebApi\nlog.config
+2024-06-28 22:02:02.0086 Info Configuration initialized.
+2024-06-28 22:09:25.8525 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-06-28 22:09:25.8800 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-28 22:09:25.9032 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ali\Desktop\Eğitimlerim\bsStoreApp\WebApi\nlog.config
+2024-06-28 22:09:25.9239 Info Configuration initialized.
+2024-06-28 22:11:04.8647 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-06-28 22:11:04.8830 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-28 22:11:04.8969 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ali\Desktop\Eğitimlerim\bsStoreApp\WebApi\nlog.config
+2024-06-28 22:11:04.9131 Info Configuration initialized.
+2024-06-28 22:20:25.2076 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-06-28 22:20:25.2276 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-28 22:20:25.2432 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ali\Desktop\Eğitimlerim\bsStoreApp\WebApi\nlog.config
+2024-06-28 22:20:25.2584 Info Configuration initialized.
+2024-06-28 22:25:04.7595 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-06-28 22:25:04.7782 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-28 22:25:04.7918 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ali\Desktop\Eğitimlerim\bsStoreApp\WebApi\nlog.config
+2024-06-28 22:25:04.8031 Info Configuration initialized.
+2024-06-29 17:36:45.7249 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-06-29 17:36:45.8638 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-29 17:36:45.8972 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Ali\Desktop\Eğitimlerim\bsStoreApp\WebApi\nlog.config
+2024-06-29 17:36:45.9286 Info Configuration initialized.

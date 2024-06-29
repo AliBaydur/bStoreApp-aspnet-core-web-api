@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using NLog;
@@ -21,6 +22,11 @@ builder.Services.AddControllers(config =>
   .AddXmlDataContractSerializerFormatters()
   .AddApplicationPart(typeof(Presentation.AssemblyReference).Assembly)
   .AddNewtonsoftJson();
+
+builder.Services.Configure<ApiBehaviorOptions>(options =>
+{
+    options.SuppressModelStateInvalidFilter = true;
+});
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
