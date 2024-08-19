@@ -2,8 +2,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using NLog;
+using Presentation;
 using Presentation.ActionFilters;
 using Repositories.EFCore;
+using Services;
 using Services.Contracts;
 using WebApi.Extensions;
 
@@ -19,12 +21,13 @@ builder.Services.AddControllers(config =>
     config.RespectBrowserAcceptHeader = true;
     config.ReturnHttpNotAcceptable = true;
 })
-  .AddCustomCsvFormatter()
-  .AddXmlDataContractSerializerFormatters()
-  .AddApplicationPart(typeof(Presentation.AssemblyReference).Assembly)
-  .AddNewtonsoftJson();
-
-
+.AddXmlDataContractSerializerFormatters()
+.AddCustomCsvFormatter()
+.AddApplicationPart(typeof(Presentation.AssemblyReference).Assembly)
+.AddNewtonsoftJson(opt =>
+    opt.SerializerSettings.ReferenceLoopHandling =
+    Newtonsoft.Json.ReferenceLoopHandling.Ignore
+);
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
@@ -42,6 +45,8 @@ builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.ConfigureActionFilters();
 builder.Services.ConfigureCors();
 builder.Services.ConfigureDataShaper();
+builder.Services.AddCustomMediaTypes();
+builder.Services.AddScoped<IBookLinks, BookLinks>();
 
 var app = builder.Build();
 
@@ -62,6 +67,9 @@ if (app.Environment.IsProduction())
 
 app.UseHttpsRedirection();
 app.UseCors("CorsPolicy");
+app.UseResponseCaching();
 app.UseAuthorization();
+
 app.MapControllers();
+
 app.Run();
