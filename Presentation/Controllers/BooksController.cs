@@ -23,6 +23,7 @@ namespace Presentation.Controllers
     [ApiController]
     [Route("api/books")]
     [ResponseCache(CacheProfileName = "5mins")]
+    [ApiExplorerSettings(GroupName = "v1")]
     public class BooksController : ControllerBase
     {
         private readonly IServiceManager _manager;
