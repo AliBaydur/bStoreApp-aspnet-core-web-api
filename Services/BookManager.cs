@@ -18,6 +18,7 @@ namespace Services
 {
     public class BookManager : IBookService
     {
+
         private readonly ICategoryService _categoryService;
         private readonly IRepositoryManager _manager;
         private readonly ILoggerService _logger;
