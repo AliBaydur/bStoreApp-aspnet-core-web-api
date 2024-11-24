@@ -57,7 +57,7 @@ namespace Presentation.Controllers
 
             //Read
             var bytes = await System.IO.File.ReadAllBytesAsync(filePath);
-            return File(bytes,contentType, Path.GetFileName(filePath));
+             return File(bytes,contentType, Path.GetFileName(filePath));
         }
     }
 }
